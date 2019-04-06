@@ -40,7 +40,7 @@ async def help(ctx):
     channel = ctx.message.author
 
     embed = discord.Embed(
-        colour=discord.Colour.brown()
+        colour=discord.Colour.darkbrown()
     )
     embed.set_author(name='Help')
     embed.add_field(name='add', value='Adds a number to a number', inline=False)
