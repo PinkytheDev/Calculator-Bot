@@ -1,1 +1,1 @@
-worker: python Cal
+worker: python CalculatorBot.py
