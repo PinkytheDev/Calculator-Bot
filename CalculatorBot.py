@@ -37,7 +37,7 @@ async def divide(left: int, right: int):
 @client.command(pass_context=True)
 async def help(ctx):
     author = ctx.message.author
-    channel = ctx.message.author
+    channel = ctx.message.channel
 
     embed = discord.Embed(
         colour=discord.Colour.orange()
